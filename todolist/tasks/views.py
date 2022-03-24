@@ -38,3 +38,5 @@ def DeleteTask(request,pk):
     context={'task':task}
     return render(request, 'deletetask.html', context)
 
+
+# secound commit
